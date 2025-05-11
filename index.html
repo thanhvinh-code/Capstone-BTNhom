@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azzle - AI Technology &amp; Startup HTML Template</title>
+    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- animation chữ & hình ảnh -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--my tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--my icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- slick theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--my slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="page_wrapper bg-white">
+        <div class="header bg-[#eeeae4] relative">
+            <input type="checkbox" id="burger-toggle">
+            <div class="header_deskSize flex justify-between px-18 py-7 items-center">
+                <div class="header_logo">
+                    <img src="https://azzle.netlify.app/assets/img/logo-dark.png" alt="#">
+                </div>
+                <div class="header_menu">
+                    <ul class="flex font-bold ">
+                        <li class="header_li relative group"> 
+                            <div class="flex items-center cursor-pointer">
+                                <a href="#">Demo</a>
+                                <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
+                            </div>
+                        </li>
+                        <li class="header_li ">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="header_li relative group">
+                            <div class="flex items-center cursor-pointer">
+                                <a href="#">Services</a>
+                                <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
+                            </div>
+                        </li>
+                        <li class="header_li relative group">
+                            <div class="flex items-center cursor-pointer">
+                                <a href="#">Pages</a>
+                                <i class="fa-solid fa-chevron-down text-xs ml-1"></i>
+                            </div>
+                        </li>
+                        <li class="header_li ">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header_button flex items-center gap-6">
+                    <button
+                        class="button_animate rounded-[50px] px-6 py-3 border-[0.5px] border-[#7F8995]  text-black hover:text-white transition font-extrabold mr-5">
+                        Login
+                    </button>
+                    <button class="button_animate rounded-[50px] px-6 py-3 bg-black text-white transition font-extrabold">
+                        Sign up free
+                    </button>
+                </div>
+                <!-- <label for="burger-toggle">
+                    <span></span>
+                </label> -->
+            </div>
+            <!-- <div class="header_burger_menu">
+                <nav class="burger-panel">
+                    <ul class="burger-nav">
+                        <li class="li_fix_x flex justify-end">
+                            <label for="burger-toggle"><i class="close-btn fa-solid fa-xmark"></i></label>
+                        </li>
+                        <li class="first_li flex justify-between items-center">
+                            <a href="#">Demo</a>
+                            <i id="rot_icon" class="fa-solid fa-chevron-down"></i>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <a href="#">Services</a>
+                            <i id="rot_icon" class="fa-solid fa-chevron-down"></i>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <a href="#">Pages</a>
+                            <i id="rot_icon" class="fa-solid fa-chevron-down"></i>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div> -->
+        </div>
+        <div class="content ">
+            <div class=" relative bg-[#eeeae4] pb-23 mb-20">
+                <div class=" mx-auto w-[90%]">
+                    <div class="animate__animated animate__fadeInUp animate__delay-0.5s text-center pt-10">
+                        <h1 class="text-black text-[120px] max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px] font-bold  pb-5">Simplify your SaaS<br> solution with AI</h1>
+                        <p class="text-2xl">Our AI SAAS tool is a cloud-based software delivery model. It helps
+                            businesses forecast demand for <br> products and services and optimizeinventory management
+                            and supply chain operations.</p>
+                    </div>
+                    <div class="buttons py-15 flex justify-center">
+                        <button
+                            class="button_animate rounded-[50px] px-6 py-3 bg-black text-white transition font-extrabold mr-5">Get
+                            started for free</button>
+                        <button
+                            class="button_animate rounded-[50px] px-6 py-3 border-[0.5px] border-[#7F8995]  text-black hover:text-white transition font-extrabold ">Learn
+                            more</button>
+                    </div>
+                    <div class="animate__animated animate__fadeInUp animate__delay-1s img relative rounded-[13px] z-2">
+                        <img src="https://azzle.netlify.app/assets/img/th-1/hero-dashboard.jpg" alt="#">
+                    </div>
+                </div>
+                
+                <div class=" companies animate__animated animate__fadeInUp animate__delay-1.5s py-20 w-[92%] ">
+                    <p class="text-center pb-10 ">Companies of all sizes trust us to find AI SaaS critical to their growth and
+                        innovation</p>
+                    <div class="service_carousel">
+                        <div >
+                            <img src="https://azzle.netlify.app/assets/img/th-1/brand-1.png" alt="#">
+                        </div>
+                        <div >
+                            <img src="https://azzle.netlify.app/assets/img/th-1/brand-2.png" alt="#">
+                        </div>
+                        <div >
+                            <img src="https://azzle.netlify.app/assets/img/th-1/brand-3.png" alt="#">
+                        </div>
+                        <div >
+                            <img src="https://azzle.netlify.app/assets/img/th-1/brand-4.png" alt="#">
+                        </div>
+                        <div >
+                            <img src="https://azzle.netlify.app/assets/img/th-1/brand-5.png" alt="#">
+                        </div>
+                        <div >
+                            <img src="https://azzle.netlify.app/assets/img/th-1/brand-1.png" alt="#">
+                        </div>
+                        <div >
+                            <img src="https://azzle.netlify.app/assets/img/th-1/brand-2.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+             
+            <div class="core_content w-[90%] ">
+                <h2 class="pb-18 text-[72px] font-bold leading-[72px]">Core features that <br> make it valuable</h2>
+                <div class="animate__animated animate__fadeInUp animate__delay-2s grid_core ">
+                    <div class=" core_border group hover:bg-black hover:text-white relative py-6 px-7">
+                        <img class="" src="https://azzle.netlify.app/assets/img/th-1/service-icon-black-1.svg" alt="#"
+                            width="70" height="70">
+                        <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-orange-1.svg"
+                            alt="service-icon-orange-1" width="70" height="70"
+                            class="absolute left-7 top-6 opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                        <h5 class="py-5 font-bold text-2xl">Resource Flexibility</h5>
+                        <p class="pb-10">This is an excellent option for <br>people & small businesses <br> who are
+                            starting out.
+                        </p>
+                        <i class="fa-solid fa-arrow-right fa-2x group-hover:text-orange-700"></i>
+                    </div>
+                    <div class=" core_border group hover:bg-black hover:text-white relative py-6 px-7">
+                        <img class="" src="https://azzle.netlify.app/assets/img/th-1/service-icon-black-2.svg" alt="#">
+                        <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-orange-2.svg" alt="#"
+                            width="70" height="70"
+                            class="absolute left-7 top-6 opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                        <h5 class="py-5 font-bold text-2xl">Managed Services</h5>
+                        <p class="pb-10">This is an excellent option for <br>people & small businesses <br> who are
+                            starting out.
+                        </p>
+                        <i class="fa-solid fa-arrow-right fa-2x group-hover:text-orange-700"></i>
+                    </div>
+                    <div class=" core_border group hover:bg-black hover:text-white relative py-6 px-7">
+                        <img class="" src="https://azzle.netlify.app/assets/img/th-1/service-icon-black-3.svg" alt="#">
+                        <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-orange-3.svg" alt="#"
+                            width="70" height="70"
+                            class="absolute left-7 top-6 opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                        <h5 class="py-5 font-bold text-2xl">Web-Based Access</h5>
+                        <p class="pb-10">This is an excellent option for <br>people & small businesses <br> who are
+                            starting out.
+                        </p>
+                        <i class="fa-solid fa-arrow-right fa-2x group-hover:text-orange-700"></i>
+                    </div>
+                    <div class=" core_border group hover:bg-black hover:text-white relative py-6 px-7">
+                        <img class="" src="https://azzle.netlify.app/assets/img/th-1/service-icon-black-4.svg" alt="#">
+                        <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-orange-4.svg" alt="#"
+                            width="70" height="70"
+                            class="absolute left-7 top-6 opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                        <h5 class="py-5 font-bold text-2xl">Resource Flexibility</h5>
+                        <p class="pb-10">This is an excellent option for <br>people & small businesses <br> who are
+                            starting out.
+                        </p>
+                        <i class="fa-solid fa-arrow-right fa-2x group-hover:text-orange-700"></i>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="accessible-content w-[90%] flex flex-col-reverse md:flex-row items-center lg:justify-between gap-12 py-20">
+                <div class="animate__animated animate__fadeInUp animate__delay-2.5s w-[45%]">
+                    <img src="https://azzle.netlify.app/assets/img/th-1/content-image-1.jpg" alt="#" width="526"
+                        height="450">
+                </div>
+                <div class="animate__animated animate__fadeInUp animate__delay-2.5s accessible_text w-[45%] ">
+                    <h2 class="pb-6 text-[65px] font-semibold leading-[77px]">Accessible to a wider audience</h2>
+                    <p class="text-xl mb-7">Advanced AI capabilities accessible to a broader audience, including small &
+                        medium-sized businesses and individuals who may not have the resources or expertise to develop.
+                    </p>
+                    <p class="text-xl mb-7">Advanced AI capabilities accessible to a broader audience, including small &
+                        medium-sized businesses and individuals who may not have the resources or expertise to develop.
+                    </p>
+                </div>
+            </div>
+            <div class="animate__animated animate__fadeInUp animate__delay-3s providing_content w-[90%]  flex flex-col md:flex-row items-center gap-12 pb-20">
+                <div class="  w-[50%]">
+                    <h2 class="pb-10 text-[65px] leading-[80px] font-semibold ">Providing quick deploy solutions</h2>
+                    <p class="text-xl pb-7">Our AI SaaS solutions can be quickly deployed, enabling users to start
+                        benefiting from AI capabilities without lengthy setup and development times in fast-paced
+                        industries.</p>
+                    <ul>
+                        <li class="flex text-xl  mb-5 items-center">
+                            <div class=" text-base rounded-[50%] bg-black text-white h-5.5 w-5 pl-[3px] items-center mr-4">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            Ready-to-use AI capabilities system
+                        </li>
+                        <li class="flex text-xl  mb-5 items-center">
+                            <div class=" text-base rounded-[50%] bg-black text-white h-5.5 w-5 pl-[3px] items-center mr-4">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            Users can quickly integrate AI features
+                        </li>
+                        <li class="flex text-xl  pb-5 items-center">
+                            <div class=" text-base rounded-[50%] bg-black text-white h-5.5 w-5 pl-[3px] items-center mr-4">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            Time savings translate to cost savings
+                        </li>
+                    </ul>
+                </div>
+                <div class="animate__animated animate__fadeInUp animate__delay-3s img w-[45%]">
+                    <img src="https://azzle.netlify.app/assets/img/th-1/content-image-2.jpg" alt="#" width="526"
+                        height="450">
+                </div>
+            </div>
+            <section id="funfact-section">
+                <div class="mx-auto max-w-[1500px] px-5">
+                    <div class="grid grid-cols-1 overflow-hidden rounded-[30px] bg-black lg:rounded-[50px] xl:grid-cols-[minmax(400px,_1fr)_1.5fr] xxl:grid-cols-[1fr_minmax(800px,_1fr)] jos" data-jos_once="1" data-jos_animation="fade-up" data-jos_counter="1" data-jos_scrolldirection="down">
+                        <div class="relative overflow-hidden rounded-[30px] lg:rounded-[50px]">
+                            <img src="https://azzle.netlify.app/assets/img/th-1/funfact-image.jpg" alt="#" width="721" height="784" class="h-80 w-full object-cover object-center lg:h-[35rem] xl:h-full">
+                            <a data-fslightbox="gallery" href="#" class="absolute left-1/2 top-1/2 z-[1] -translate-x-1/2 -translate-y-1/2">
+                                <div class="relative flex h-[120px] w-[120px] items-center justify-center rounded-full border-[3px] border-black text-lg font-bold backdrop-blur-[2px] transition-all duration-300 hover:bg-OrangyRed hover:text-white">Play
+                                    <div class="absolute -z-[1] h-[110%] w-[110%] animate-[ping_1.5s_ease-in-out_infinite] rounded-full bg-gray-600 opacity-30"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="seft-center px-6 py-16 sm:px-16 xl:px-10 xl:py-24 xxl:py-32 xxl:pl-16 xxl:pr-28">
+                            <div class="mb-8 lg:mb-16 xl:mb-6 ">
+                                <h2 class="text-white text-[80px]">AI-powered that streamline tasks</h2>
+                            </div>
+                            <div class="text-left text-lg pb-15 leading-[1.4] text-white lg:text-[21px]">
+                                <p class="mb-7 text-[21px] last:mb-0 ">As your business grows or your AI SaaS needs change, you <br> can easily adjust your
+                                    subscription level to match those needs. <br>
+                                    This flexibility ensures that AI remains an asset.</p>
+                            </div>
+                            <div class="my-14 h-[1px] w-full bg-colorCodGray"></div>
+                            <ul
+                                class="flex  justify-center gap-x-11 gap-y-8 text-center sm:flex-left xl:justify-normal xl:text-left xxl:gap-x-20">
+                                <li>
+                                    <h3 class="text-5xl  text-colorOrangyRed md:text-6xl lg:text-7xl xxl:text-[120px] " >
+                                        <span class="start-number font-medium counter text-[#FE330A] text-[120px]" >92</span>
+                                    </h3>
+                                    <span class="block text-lg font-normal text-white lg:text-[21px]">Customer service inquiries</span>
+                                </li>
+                                <li>
+                                    <h3 class="text-5xl text-colorOrangyRed ma:text-6xl lg:text-7xl xl:text-7xl xxl:text-[120px] ">
+                                        <span class="counter font-medium text-[#FE330A] text-[120px]" >75</span>
+                                    </h3>
+                                    <span class="block text-lg font-normal text-white lg:text-[21px]">Using financial institutions</span>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <footer>
+                <div class="py-[60px] xl:pb-[100px] xl:pt-[130px] ">
+                    <div class="overflow-hidden">
+                        <!-- footer text -->
+                        <div class="footer-text-slider flex w-full items-center gap-x-[30px] whitespace-nowrap">
+                            <!-- Footer Slide Item -->
+                             <img src="https://azzle.netlify.app/assets/img/th-1/footer-text-slider-icon.svg" alt="#" width="60" height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]">
+                             <div class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px] "> Start building software </div>
+
+                            <img src="https://azzle.netlify.app/assets/img/th-1/footer-text-slider-icon.svg" alt="#" width="60" height="60"class="h-10 w-10 lg:h-[60px] lg:w-[60px]">
+                            <div class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px] "> Start building software </div>
+
+                            <img src="https://azzle.netlify.app/assets/img/th-1/footer-text-slider-icon.svg" alt="#" width="60" height="60" class="h-10 w-10 lg:h-[60px] lg:w-[60px]">
+                            <div class="block font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px] ">Start building software </div>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+    </div>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- slick js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+        integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- custom slick -->
+    <script>
+        $(document).ready(function () {
+            $('.service_carousel').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    <!-- waypoint -->
+    <script src="./jquery.countup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- custum waypoint -->
+    <script>
+        $('.counter').countUp();
+    </script>
+
+    </script>
+</body>
+
+</html>
